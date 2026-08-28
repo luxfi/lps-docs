@@ -138,7 +138,7 @@ const config: RFCConfig = {
       {
         title: 'Organization',
         links: [
-          { label: 'Lux Partners', href: 'https://lux.partners', external: true },
+          { label: 'Lux Industries Inc', href: 'https://lux.partners', external: true },
           { label: 'Hanzo AI', href: 'https://hanzo.ai', external: true },
           { label: 'Zoo Labs', href: 'https://zoo.ngo', external: true },
           { label: 'GitHub', href: 'https://github.com/luxfi', external: true },
