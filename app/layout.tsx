@@ -8,13 +8,13 @@ import config from '@/rfc.config';
 
 const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-sans',
   display: 'swap',
 });
 
 const robotoMono = Roboto_Mono({
   subsets: ['latin'],
-  variable: '--font-roboto-mono',
+  variable: '--font-mono',
   display: 'swap',
 });
 

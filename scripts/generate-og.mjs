@@ -16,20 +16,19 @@ const publicDir = join(__dirname, '..', 'public');
 // Ensure public directory exists
 mkdirSync(publicDir, { recursive: true });
 
-// Load Inter fonts from local files
 const fontsDir = join(__dirname, 'fonts');
 const regularFontPath = join(fontsDir, 'Inter-Regular.ttf');
 const boldFontPath = join(fontsDir, 'Inter-SemiBold.ttf');
 
 const fonts = [
   {
-    name: 'Inter',
+    name: 'Zen',
     data: readFileSync(regularFontPath),
     weight: 400,
     style: 'normal',
   },
   {
-    name: 'Inter',
+    name: 'Zen',
     data: readFileSync(boldFontPath),
     weight: 600,
     style: 'normal',
